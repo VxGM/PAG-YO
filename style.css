@@ -1,0 +1,78 @@
+* {
+    font-family: 'Bitter', serif;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(
+        135deg,        /* Dirección del gradiente */
+        black,         /* Color de inicio */
+        black 25%,     /* Primer punto de transición */
+        white 25%,     /* Segundo punto de transición */
+        white 50%,     /* Punto intermedio */
+        black 50%,     /* Segundo punto de transición */
+        black 75%,     /* Tercer punto de transición */
+        white 75%      /* Cuarto punto de transición */
+    );
+    background-size: 50px 50px; /* Tamaño de los cuadros */
+}
+
+
+.favorite-things {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Or any other size */
+    gap: 30px;
+    flex-direction: column;
+}
+
+.favorite-things img {
+    width: 300px;
+    
+}
+.popular-container{
+    height: 100%;
+}
+.image-container img{
+    justify-content: center; 
+}
+.menu-icono{
+    width: 50%;
+}
+body > *:not(body):not(html) {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+   
+.card button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.img.menu-icono{
+    height: 300px;
+    width: 600px;
+}
